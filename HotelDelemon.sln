@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelDelemon.Web", "HotelDelemon.Web\HotelDelemon.Web.csproj", "{CF1D1F49-CC99-4C9A-8D0C-F53BB5534FA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F59B1276-6B2D-4990-B026-5C64DC41E1D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{3B07E6DA-7356-4CF0-BD99-5AE7AA7FE7AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", "{1D3ED0D5-05FD-42E2-BC89-AAD9A0ED8055}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{88566FCF-7FC0-4DD7-9317-0F3CAB847EBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{AE1F30CF-D1B1-446A-A37B-2BEC29F65CDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF1D1F49-CC99-4C9A-8D0C-F53BB5534FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1D1F49-CC99-4C9A-8D0C-F53BB5534FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1D1F49-CC99-4C9A-8D0C-F53BB5534FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1D1F49-CC99-4C9A-8D0C-F53BB5534FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF1D1F49-CC99-4C9A-8D0C-F53BB5534FA9} = {AE1F30CF-D1B1-446A-A37B-2BEC29F65CDB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {001C4F30-5391-4B98-B59D-010D0964240F}
+	EndGlobalSection
+EndGlobal
